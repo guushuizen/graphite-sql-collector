@@ -28,3 +28,4 @@ Beware that, when combining many queries with a `UNION` statement, they must all
 
 - Currently it opens a new MySQL session and a new HTTP session to your Graphite endpoint for every SQL file in the `queries` folder
 - Don't pass the MySQL password as argument.
+- Support posting tags to Graphite
